@@ -15,7 +15,7 @@ public class HomePage {
 
 	public void enterProductName(){
 		searchElement = driver.findElement(By
-				.xpath(".//input[@id='headerSearchInput']"));
+				.xpath(".//input[@id='headerSearchInput_7777']"));
 		searchElement.sendKeys("Soaps");
 	}
 }
